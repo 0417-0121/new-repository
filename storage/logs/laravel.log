@@ -1,0 +1,139 @@
+[2023-07-15 14:58:27] local.ERROR: Command "make:" is ambiguous.
+Did you mean one of these?
+    make:cast         Create a new custom Eloquent cast class
+    make:channel      Create a new channel class
+    make:component    Create a new view component class
+    make:command      Create a new Artisan command
+    make:controller   Create a new controller class
+    make:event        Create a new event class
+    make:exception    Create a new custom exception class
+    make:factory      Create a new model factory
+    make:job          Create a new job class
+    make:listener     Create a new event listener class
+    make:mail         Create a new email class
+    make:middleware   Create a new middleware class
+    make:model        Create a new Eloquent model class
+    make:notification Create a new notification class
+    make:observer     Create a new observer class
+    make:policy       Create a new policy class
+    make:provider     Create a new service provider class
+    make:request      Create a new form request class
+    make:resource     Create a new resource
+    make:rule         Create a new validation rule
+    make:scope        Create a new scope class
+    make:seeder       Create a new seeder class
+    make:test         Create a new test class
+    make:migration    Create a new migration file. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:\" is ambiguous.
+Did you mean one of these?
+    make:cast         Create a new custom Eloquent cast class
+    make:channel      Create a new channel class
+    make:component    Create a new view component class
+    make:command      Create a new Artisan command
+    make:controller   Create a new controller class
+    make:event        Create a new event class
+    make:exception    Create a new custom exception class
+    make:factory      Create a new model factory
+    make:job          Create a new job class
+    make:listener     Create a new event listener class
+    make:mail         Create a new email class
+    make:middleware   Create a new middleware class
+    make:model        Create a new Eloquent model class
+    make:notification Create a new notification class
+    make:observer     Create a new observer class
+    make:policy       Create a new policy class
+    make:provider     Create a new service provider class
+    make:request      Create a new form request class
+    make:resource     Create a new resource
+    make:rule         Create a new validation rule
+    make:scope        Create a new scope class
+    make:seeder       Create a new seeder class
+    make:test         Create a new test class
+    make:migration    Create a new migration file. at /home/ec2-user/environment/blog/vendor/symfony/console/Application.php:735)
+[stacktrace]
+#0 /home/ec2-user/environment/blog/vendor/symfony/console/Application.php(259): Symfony\\Component\\Console\\Application->find()
+#1 /home/ec2-user/environment/blog/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#2 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Console/Application.php(102): Symfony\\Component\\Console\\Application->run()
+#3 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(155): Illuminate\\Console\\Application->run()
+#4 /home/ec2-user/environment/blog/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2023-07-15 16:44:14] local.ERROR: The "--post" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--post\" option does not exist. at /home/ec2-user/environment/blog/vendor/symfony/console/Input/ArgvInput.php:220)
+[stacktrace]
+#0 /home/ec2-user/environment/blog/vendor/symfony/console/Input/ArgvInput.php(147): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /home/ec2-user/environment/blog/vendor/symfony/console/Input/ArgvInput.php(82): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /home/ec2-user/environment/blog/vendor/symfony/console/Input/ArgvInput.php(71): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /home/ec2-user/environment/blog/vendor/symfony/console/Input/Input.php(55): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /home/ec2-user/environment/blog/vendor/symfony/console/Command/Command.php(250): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Console/Command.php(153): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /home/ec2-user/environment/blog/vendor/symfony/console/Application.php(1014): Illuminate\\Console\\Command->run()
+#7 /home/ec2-user/environment/blog/vendor/symfony/console/Application.php(301): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /home/ec2-user/environment/blog/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#9 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Console/Application.php(102): Symfony\\Component\\Console\\Application->run()
+#10 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(155): Illuminate\\Console\\Application->run()
+#11 /home/ec2-user/environment/blog/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#12 {main}
+"} 
+[2023-07-15 17:41:24] local.ERROR: syntax error, unexpected identifier "Route" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected identifier \"Route\" at /home/ec2-user/environment/blog/routes/web.php:16)
+[stacktrace]
+#0 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Routing/Router.php(503): Illuminate\\Routing\\RouteFileRegistrar->register()
+#1 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Routing/Router.php(457): Illuminate\\Routing\\Router->loadRoutes()
+#2 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(192): Illuminate\\Routing\\Router->group()
+#3 /home/ec2-user/environment/blog/app/Providers/RouteServiceProvider.php(37): Illuminate\\Routing\\RouteRegistrar->group()
+#4 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Container/Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#7 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#8 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Container/Container.php(661): Illuminate\\Container\\BoundMethod::call()
+#9 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(120): Illuminate\\Container\\Container->call()
+#10 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Container/Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#14 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#15 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Container/Container.php(661): Illuminate\\Container\\BoundMethod::call()
+#16 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php(119): Illuminate\\Container\\Container->call()
+#17 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(932): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(910): Illuminate\\Foundation\\Application->bootProvider()
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#20 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(911): array_walk()
+#21 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(242): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#23 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\\Foundation\\Application->bootstrapWith()
+#24 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(160): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#25 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#26 /home/ec2-user/environment/blog/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#27 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#28 {main}
+"} 
+[2023-07-15 17:41:32] local.ERROR: syntax error, unexpected identifier "Route" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected identifier \"Route\" at /home/ec2-user/environment/blog/routes/web.php:16)
+[stacktrace]
+#0 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Routing/Router.php(503): Illuminate\\Routing\\RouteFileRegistrar->register()
+#1 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Routing/Router.php(457): Illuminate\\Routing\\Router->loadRoutes()
+#2 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(192): Illuminate\\Routing\\Router->group()
+#3 /home/ec2-user/environment/blog/app/Providers/RouteServiceProvider.php(37): Illuminate\\Routing\\RouteRegistrar->group()
+#4 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Container/Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#7 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#8 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Container/Container.php(661): Illuminate\\Container\\BoundMethod::call()
+#9 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(120): Illuminate\\Container\\Container->call()
+#10 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Container/Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#14 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#15 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Container/Container.php(661): Illuminate\\Container\\BoundMethod::call()
+#16 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php(119): Illuminate\\Container\\Container->call()
+#17 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(932): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(910): Illuminate\\Foundation\\Application->bootProvider()
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#20 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(911): array_walk()
+#21 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(242): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#23 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\\Foundation\\Application->bootstrapWith()
+#24 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(160): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#25 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#26 /home/ec2-user/environment/blog/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#27 /home/ec2-user/environment/blog/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#28 {main}
+"} 

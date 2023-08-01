@@ -9,6 +9,11 @@ class Post extends Model
 {
     use HasFactory;
     
+    protected $fillable = [
+    'title',
+    'body',
+    ];
+    
     public function getByLimit(int $limit_count = 2)
     {
         return $this->orderby('updated_at', 'ASC')->limit($limit_count)->get();
